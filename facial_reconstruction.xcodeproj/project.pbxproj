@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		E53198EA281EC79D00D2D94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53198E9281EC79D00D2D94B /* AppDelegate.swift */; };
 		E53198EC281EC79D00D2D94B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53198EB281EC79D00D2D94B /* SceneDelegate.swift */; };
-		E53198EE281EC79D00D2D94B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53198ED281EC79D00D2D94B /* ViewController.swift */; };
-		E53198F1281EC79E00D2D94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53198EF281EC79E00D2D94B /* Main.storyboard */; };
 		E53198F3281EC7A000D2D94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53198F2281EC7A000D2D94B /* Assets.xcassets */; };
-		E53198F6281EC7A000D2D94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53198F4281EC7A000D2D94B /* LaunchScreen.storyboard */; };
+		E5319909281EC97F00D2D94B /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319908281EC97F00D2D94B /* ImageModel.swift */; };
+		E531990D281ECA1B00D2D94B /* ReconstructionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531990C281ECA1B00D2D94B /* ReconstructionController.swift */; };
+		E531990F281ECA3700D2D94B /* ReconstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531990E281ECA3700D2D94B /* ReconstructionView.swift */; };
+		E5319916281ECF3300D2D94B /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319915281ECF3300D2D94B /* ApiManager.swift */; };
+		E5319918281ECF7700D2D94B /* ProcessedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319917281ECF7700D2D94B /* ProcessedImage.swift */; };
+		E531991A281ECF8E00D2D94B /* ReconstructedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319919281ECF8E00D2D94B /* ReconstructedImage.swift */; };
+		E531991E281EEA2400D2D94B /* SketchDrawingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531991D281EEA2400D2D94B /* SketchDrawingController.swift */; };
+		E5319920281EEA3900D2D94B /* SketchDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531991F281EEA3900D2D94B /* SketchDrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E53198E6281EC79D00D2D94B /* facial_reconstruction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facial_reconstruction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53198E9281EC79D00D2D94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53198EB281EC79D00D2D94B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E53198ED281EC79D00D2D94B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E53198F0281EC79E00D2D94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E53198F2281EC7A000D2D94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E53198F5281EC7A000D2D94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53198F7281EC7A000D2D94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5319908281EC97F00D2D94B /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		E531990C281ECA1B00D2D94B /* ReconstructionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructionController.swift; sourceTree = "<group>"; };
+		E531990E281ECA3700D2D94B /* ReconstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructionView.swift; sourceTree = "<group>"; };
+		E5319915281ECF3300D2D94B /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E5319917281ECF7700D2D94B /* ProcessedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedImage.swift; sourceTree = "<group>"; };
+		E5319919281ECF8E00D2D94B /* ReconstructedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructedImage.swift; sourceTree = "<group>"; };
+		E531991D281EEA2400D2D94B /* SketchDrawingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDrawingController.swift; sourceTree = "<group>"; };
+		E531991F281EEA3900D2D94B /* SketchDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		E53198E8281EC79D00D2D94B /* facial_reconstruction */ = {
 			isa = PBXGroup;
 			children = (
-				E53198E9281EC79D00D2D94B /* AppDelegate.swift */,
-				E53198EB281EC79D00D2D94B /* SceneDelegate.swift */,
-				E53198ED281EC79D00D2D94B /* ViewController.swift */,
-				E53198EF281EC79E00D2D94B /* Main.storyboard */,
-				E53198F2281EC7A000D2D94B /* Assets.xcassets */,
-				E53198F4281EC7A000D2D94B /* LaunchScreen.storyboard */,
+				E5319905281EC8FF00D2D94B /* Services */,
+				E5319904281EC8F500D2D94B /* Resources */,
+				E5319903281EC8EE00D2D94B /* Models */,
+				E5319902281EC8E500D2D94B /* Views */,
+				E5319901281EC8D700D2D94B /* Controllers */,
+				E53198FD281EC8B200D2D94B /* API */,
 				E53198F7281EC7A000D2D94B /* Info.plist */,
 			);
 			path = facial_reconstruction;
+			sourceTree = "<group>";
+		};
+		E53198FD281EC8B200D2D94B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E5319900281EC8D000D2D94B /* Models */,
+				E53198FE281EC8BE00D2D94B /* Services */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E53198FE281EC8BE00D2D94B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5319915281ECF3300D2D94B /* ApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E5319900281EC8D000D2D94B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5319917281ECF7700D2D94B /* ProcessedImage.swift */,
+				E5319919281ECF8E00D2D94B /* ReconstructedImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5319901281EC8D700D2D94B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E531990C281ECA1B00D2D94B /* ReconstructionController.swift */,
+				E531991D281EEA2400D2D94B /* SketchDrawingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5319902281EC8E500D2D94B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E531990E281ECA3700D2D94B /* ReconstructionView.swift */,
+				E531991F281EEA3900D2D94B /* SketchDrawingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5319903281EC8EE00D2D94B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5319908281EC97F00D2D94B /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5319904281EC8F500D2D94B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E53198F2281EC7A000D2D94B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5319905281EC8FF00D2D94B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E53198E9281EC79D00D2D94B /* AppDelegate.swift */,
+				E53198EB281EC79D00D2D94B /* SceneDelegate.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +162,8 @@
 			dependencies = (
 			);
 			name = facial_reconstruction;
+			packageProductDependencies = (
+			);
 			productName = facial_reconstruction;
 			productReference = E53198E6281EC79D00D2D94B /* facial_reconstruction.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,8 @@
 				Base,
 			);
 			mainGroup = E53198DD281EC79D00D2D94B;
+			packageReferences = (
+			);
 			productRefGroup = E53198E7281EC79D00D2D94B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53198F6281EC7A000D2D94B /* LaunchScreen.storyboard in Resources */,
 				E53198F3281EC7A000D2D94B /* Assets.xcassets in Resources */,
-				E53198F1281EC79E00D2D94B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53198EE281EC79D00D2D94B /* ViewController.swift in Sources */,
+				E5319916281ECF3300D2D94B /* ApiManager.swift in Sources */,
+				E5319918281ECF7700D2D94B /* ProcessedImage.swift in Sources */,
 				E53198EA281EC79D00D2D94B /* AppDelegate.swift in Sources */,
+				E531991A281ECF8E00D2D94B /* ReconstructedImage.swift in Sources */,
+				E5319909281EC97F00D2D94B /* ImageModel.swift in Sources */,
 				E53198EC281EC79D00D2D94B /* SceneDelegate.swift in Sources */,
+				E531990F281ECA3700D2D94B /* ReconstructionView.swift in Sources */,
+				E531991E281EEA2400D2D94B /* SketchDrawingController.swift in Sources */,
+				E531990D281ECA1B00D2D94B /* ReconstructionController.swift in Sources */,
+				E5319920281EEA3900D2D94B /* SketchDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E53198EF281EC79E00D2D94B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E53198F0281EC79E00D2D94B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E53198F4281EC7A000D2D94B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E53198F5281EC7A000D2D94B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E53198F8281EC7A000D2D94B /* Debug */ = {
@@ -290,9 +359,11 @@
 				DEVELOPMENT_TEAM = 8222RF834L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = facial_reconstruction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Реконструктор";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Чтобы сделать фотографию скетча пожалуйста предоставьте доступ к камере";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Чтобы загрузить фотографию скетча пожалуйста предоставьте доступ к галерее";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +375,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,9 +389,11 @@
 				DEVELOPMENT_TEAM = 8222RF834L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = facial_reconstruction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Реконструктор";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Чтобы сделать фотографию скетча пожалуйста предоставьте доступ к камере";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Чтобы загрузить фотографию скетча пожалуйста предоставьте доступ к галерее";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +405,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
