@@ -93,7 +93,7 @@ class SketchDrawingController: UIViewController {
     }
     
     @objc func goBack(_ sender: UIBarButtonItem) {
-        doAfterDrawing?(sketchDrawingView.skethImageView.image!)
+        doAfterDrawing?(sketchDrawingView.skethImageView.image ?? UIImage())
         navigationController?.popViewController(animated: true)
     }
     
@@ -101,10 +101,4 @@ class SketchDrawingController: UIViewController {
         sketchDrawingView.brushThicknessValue.text = "\(Int(sketchDrawingView.brushThicknessSlider.value))"
     }
 
-}
-
-extension UIButton {
-    func toBarButtonItem() -> UIBarButtonItem? {
-        return UIBarButtonItem(customView: self)
-    }
 }

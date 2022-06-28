@@ -17,5 +17,5 @@ struct ReconstructedImage: Codable {
 // MARK: - ReconstructedImageData
 struct ReconstructedImageData: Codable {
     let width, height: Int?
-    let mode, decoder, format, content: String?
+    let content: String?
 }

@@ -97,9 +97,6 @@ class ReconstructionController: UIViewController {
             "image": sketchImage.convertImageToBase64String(image: sketchImage.image),
             "width": sketchImage.width.description,
             "height": sketchImage.height.description,
-            "decoder": sketchImage.decoder,
-            "format_image": sketchImage.imageFormat,
-            "mode": sketchImage.mode
         ]
         let httpBodyParametrs = try? JSONSerialization.data(withJSONObject: sendSketchInfo, options: [])
         
@@ -108,9 +105,6 @@ class ReconstructionController: UIViewController {
                 self.sketchImage.image = self.sketchImage.convertBase64StringToImage(imageString: (processedScetchInfo.data?.content)!)
                 self.sketchImage.width = (processedScetchInfo.data?.width)!
                 self.sketchImage.height = (processedScetchInfo.data?.height)!
-                self.sketchImage.decoder = (processedScetchInfo.data?.decoder)!
-                self.sketchImage.imageFormat = (processedScetchInfo.data?.format)!
-                self.sketchImage.mode = (processedScetchInfo.data?.mode)!
                 
                 self.reconstructionView.sketchImageView.image = self.sketchImage.image
             }
@@ -122,9 +116,6 @@ class ReconstructionController: UIViewController {
             "image": sketchImage.convertImageToBase64String(image: sketchImage.image),
             "width": sketchImage.width.description,
             "height": sketchImage.height.description,
-            "decoder": sketchImage.decoder,
-            "format_image": sketchImage.imageFormat,
-            "mode": sketchImage.mode
         ]
         let httpBodyParametrs = try? JSONSerialization.data(withJSONObject: sendSketchInfo, options: [])
         
@@ -133,9 +124,6 @@ class ReconstructionController: UIViewController {
                 self.reconstructedImage.image = self.sketchImage.convertBase64StringToImage(imageString: (reconstructedImageInfo.data?.content)!)
                 self.reconstructedImage.width = (reconstructedImageInfo.data?.width)!
                 self.reconstructedImage.height = (reconstructedImageInfo.data?.height)!
-                self.reconstructedImage.decoder = (reconstructedImageInfo.data?.decoder)!
-                self.reconstructedImage.imageFormat = (reconstructedImageInfo.data?.format)!
-                self.reconstructedImage.mode = (reconstructedImageInfo.data?.mode)!
                 
                 self.reconstructionView.reconstructedImageView.image = self.reconstructedImage.image
             }

@@ -13,7 +13,7 @@ enum ApiType {
     case reconstructionImage
     
     var baseURL: String {
-        return "http://192.168.0.19:8000/service/"
+        return "http://192.168.43.126:8000/service/"
     }
     
     var path: String {

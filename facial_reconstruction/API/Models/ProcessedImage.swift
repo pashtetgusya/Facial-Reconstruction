@@ -17,5 +17,5 @@ struct ProcessedImage: Codable {
 // MARK: - ProcessedImageData
 struct ProcessedImageData: Codable {
     let width, height: Int?
-    let mode, decoder, format, content: String?
+    let content: String?
 }

@@ -60,7 +60,6 @@ class SketchDrawingView: UIView {
         NSLayoutConstraint.activate([
             buttonsStackView.heightAnchor.constraint(equalToConstant: 30),
             buttonsStackView.widthAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.widthAnchor),
-//            buttonsStackView.bottomAnchor.constraint(equalTo: skethImageView.topAnchor),
             buttonsStackView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
             buttonsStackView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 5),
             buttonsStackView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -5),
@@ -92,14 +91,8 @@ class SketchDrawingView: UIView {
         brushThicknessValue.textColor = .white
         brushThicknessValue.text = "5"
         NSLayoutConstraint.activate([
-//            brushThicknessValue.heightAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.heightAnchor),
-//            brushThicknessValue.widthAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.widthAnchor),
-//            brushThicknessSlider.topAnchor.constraint(equalTo: skethImageView.bottomAnchor),
             brushThicknessValue.bottomAnchor.constraint(equalTo: brushThicknessSlider.topAnchor),
             brushThicknessValue.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor)
-//            brushThicknessValue.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 5),
-//            brushThicknessValue.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -5),
-
         ])
     }
     
@@ -108,7 +101,6 @@ class SketchDrawingView: UIView {
         NSLayoutConstraint.activate([
             brushThicknessSlider.heightAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.heightAnchor),
             brushThicknessSlider.widthAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.widthAnchor),
-//            brushThicknessSlider.topAnchor.constraint(equalTo: skethImageView.bottomAnchor),
             brushThicknessSlider.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor),
             brushThicknessSlider.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 5),
             brushThicknessSlider.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -5),

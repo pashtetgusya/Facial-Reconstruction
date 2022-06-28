@@ -21,7 +21,6 @@ class ReconstructionView: UIView {
     lazy var sendSketchForProcessingButton = UIButton()
     lazy var sendSketchForReconstructionButton = UIButton()
     lazy var goToDrawScetchScreenButtin = UIButton()
-//    lazy var goToSettingsScreenButton = UIButton()
 
 //    Вью для отображения изображений
     lazy var sketchImageView = UIImageView()
@@ -38,7 +37,6 @@ class ReconstructionView: UIView {
     }
     
     private func setupInterface() {
-//        backgroundColor = #colorLiteral(red: 0.6423236132, green: 0.2392926514, blue: 0.3226928711, alpha: 1)
         backgroundColor = #colorLiteral(red: 0.6784313725, green: 0.1960784314, blue: 0.3019607843, alpha: 1)
         
         addSubview(buttonsStackView)
@@ -46,7 +44,6 @@ class ReconstructionView: UIView {
         buttonsStackView.addArrangedSubview(sendSketchForProcessingButton)
         buttonsStackView.addArrangedSubview(sendSketchForReconstructionButton)
         buttonsStackView.addArrangedSubview(goToDrawScetchScreenButtin)
-//        buttonsStackView.addArrangedSubview(goToSettingsScreenButton)drawnImage
         
         addSubview(imagesStackView)
         imagesStackView.addArrangedSubview(sketchImageView)
@@ -87,7 +84,6 @@ class ReconstructionView: UIView {
         sendSketchForProcessingButton.setImage(UIImage(systemName: "wand.and.stars.inverse"), for: .normal)
         sendSketchForReconstructionButton.setImage(UIImage(systemName: "lasso.and.sparkles"), for: .normal)
         goToDrawScetchScreenButtin.setImage(UIImage(systemName: "square.and.pencil"), for: .normal)
-//        goToSettingsScreenButton.setImage(UIImage(systemName: "gear"), for: .normal)
     }
     
     private func setupButtonsStackView() {
