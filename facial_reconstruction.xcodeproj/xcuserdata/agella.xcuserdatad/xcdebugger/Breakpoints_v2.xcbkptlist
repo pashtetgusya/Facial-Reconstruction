@@ -3,4 +3,114 @@
    uuid = "BD2D26EC-1DA9-4391-B4EE-7EEEBEC3FB29"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facial_reconstruction/Controllers/SketchDrawingController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SketchDrawingController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - 1f0d0f6a0fa13017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.doAfterDrawing.getter : Swift.Optional&lt;(__C.UIImage) -&gt; ()&gt;"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - 5d9333c4823b1003"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.doAfterDrawing.setter : Swift.Optional&lt;(__C.UIImage) -&gt; ()&gt;"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - 9495fa7df41f5812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.doAfterDrawing.modify : Swift.Optional&lt;(__C.UIImage) -&gt; ()&gt;"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - dedc3fffadf1eae8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.doAfterDrawing.modify : Swift.Optional&lt;(__C.UIImage) -&gt; ()&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - a3b4df02d11d714a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; facial_reconstruction.SketchDrawingController"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "E1567DE2-C9ED-4F03-B644-775613ADB074 - 5d33dab252e09d1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "facial_reconstruction.SketchDrawingController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;facial_reconstruction.SketchDrawingController&gt;"
+                  moduleName = "facial_reconstruction"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agella/work/md/facial_reconstruction/facial_reconstruction/Controllers/SketchDrawingController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

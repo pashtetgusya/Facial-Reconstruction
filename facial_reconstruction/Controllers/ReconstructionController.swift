@@ -139,7 +139,9 @@ class ReconstructionController: UIViewController {
         }
         
         sketchDravingController.modalPresentationStyle = .fullScreen
-        self.navigationController?.pushViewController(sketchDravingController, animated: true)
+//        sketchDravingController.
+//        self.navigationController?.pushViewController(sketchDravingController, animated: true)
+        self.present(sketchDravingController, animated: true)
     }
 }
 

@@ -94,7 +94,8 @@ class SketchDrawingController: UIViewController {
     
     @objc func goBack(_ sender: UIBarButtonItem) {
         doAfterDrawing?(sketchDrawingView.skethImageView.image ?? UIImage())
-        navigationController?.popViewController(animated: true)
+//        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     @objc func changeBrushThicknessValue(_ sender: UISlider) {
